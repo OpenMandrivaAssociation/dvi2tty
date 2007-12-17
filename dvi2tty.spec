@@ -12,7 +12,6 @@ Source: http://siag.nu/pub/o3read/%{name}-%{version}.tar.bz2
 Patch0: dvi2tty-5.3.1-pager.patch
 Patch1: dvi2tty-5.3.1-malloc.patch
 License: GPL
-BuildRoot: %{_tmppath}/%{name}-root
 
 %description
 dvi2tty is a tool for previewing DVI files on text-only devices. It is
