@@ -1,6 +1,6 @@
 %define name dvi2tty
 %define version 5.3.1
-%define release %mkrel 3
+%define release %mkrel 4
 
 Name: %{name}
 Version: %{version}
