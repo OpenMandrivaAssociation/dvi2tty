@@ -1,0 +1,11 @@
+--- dvi2tty-5.3.1/dvi2tty.c	2003-01-23 02:28:30.000000000 -0800
++++ dvi2tty-5.3.1/dvi2tty.c.new	2007-06-08 11:34:29.000000000 -0700
+@@ -180,7 +180,7 @@
+                               /* don't have terminals with Scand. nat. chars */
+ #define WANTPAGER   TRUE      /* default: try to pipe through a pager (like  */
+                               /* more) if stdout is tty and no -o switch     */
+-#define DEFPAGER    "/usr/bin/pg"   /* CHANGE TO YOUR LOCAL PAGER            */
++#define DEFPAGER    "/usr/bin/less"   /* CHANGE TO YOUR LOCAL PAGER            */
+ 
+     /*------------------ end of customization constants ---------------------*/
+ 
