@@ -43,3 +43,26 @@ mkdir -p %buildroot%_mandir/man1
 %_bindir/*
 %_mandir/*/*
 
+
+
+%changelog
+* Tue Jul 13 2010 Lev Givon <lev@mandriva.org> 5.3.1-5mdv2011.0
++ Revision: 552592
+- Fix webpage.
+  Patch to recompile.
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Tue Jul 22 2008 Thierry Vignaud <tv@mandriva.org> 5.3.1-3mdv2009.0
++ Revision: 240636
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Fri Jun 08 2007 Adam Williamson <awilliamson@mandriva.org> 5.3.1-1mdv2008.0
++ Revision: 37567
+- Import dvi2tty
+
