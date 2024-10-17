@@ -7,7 +7,7 @@ Version:	%{version}
 Release:	%{release}
 Summary:	Tool for previewing DVI files on text-only devices
 Group:		Text tools
-URL:		http://www.mesa.nl/pub/dvi2tty/
+URL:		https://www.mesa.nl/pub/dvi2tty/
 Source:		http://www.mesa.nl/pub/dvi2tty/%{name}-%{version}.tar.bz2
 Patch0:		dvi2tty-5.3.1-pager.patch
 Patch1:		dvi2tty-5.3.1-malloc.patch
