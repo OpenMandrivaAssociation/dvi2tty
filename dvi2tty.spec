@@ -15,6 +15,7 @@ Patch2:		dvi2tty-5.3.1-getline.patch
 License:	GPLv2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	make
 %description
 dvi2tty is a tool for previewing DVI files on text-only devices. It is
 used by MC for viewing DVI files.
